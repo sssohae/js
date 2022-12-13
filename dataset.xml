@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+<record><id>1</id><first_name>Meggi</first_name><last_name>Lyenyng</last_name><email>mlyenyng0@hud.gov</email><gender>Female</gender><salary>2167</salary></record>
+<record><id>2</id><first_name>Vladamir</first_name><last_name>Concklin</last_name><email>vconcklin1@walmart.com</email><gender>Male</gender><salary>2182</salary></record>
+<record><id>3</id><first_name>Linn</first_name><last_name>Carletto</last_name><email>lcarletto2@hostgator.com</email><gender>Polygender</gender><salary>3554</salary></record>
+<record><id>4</id><first_name>Skip</first_name><last_name>Korejs</last_name><email>skorejs3@squidoo.com</email><gender>Male</gender><salary>2147</salary></record><record><id>5</id><first_name>Harper</first_name><last_name>McCullough</last_name><email>hmccullough4@webnode.com</email><gender>Male</gender><salary>4406</salary></record><record><id>6</id><first_name>Bertrand</first_name><last_name>Stickley</last_name><email>bstickley5@prlog.org</email><gender>Non-binary</gender><salary>4663</salary></record><record><id>7</id><first_name>Romola</first_name><last_name>Brastead</last_name><email>rbrastead6@cafepress.com</email><gender>Female</gender><salary>3416</salary></record><record><id>8</id><first_name>Kikelia</first_name><last_name>Dugan</last_name><email>kdugan7@upenn.edu</email><gender>Female</gender><salary>3597</salary></record><record><id>9</id><first_name>Pincas</first_name><last_name>Dormer</last_name><email>pdormer8@vinaora.com</email><gender>Male</gender><salary>4286</salary></record>
+<record><id>10</id><first_name>Winnie</first_name><last_name>Callister</last_name><email>wcallister9@kickstarter.com</email><gender>Male</gender><salary>2883</salary></record>
+</dataset>

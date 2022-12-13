@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax.html</title>
+    <script src="table.js"></script>
+</head>
+
+<body>
+    <div id="show"></div>
+    <!-- <myName>이창호</myName>
+        이창호
+        <address>대구동구</address>
+        myName:이창호 -->
+    <!-- Asynchronous Javascript And XML(Extended Markup Language) 비동기방식-->
+    <!-- 제이슨. key:value -->
+    <!-- // console.log("first")
+    // setTimeout(function(){
+    //     console.log("second")
+    // },1000); //1초 있다가 실행해. 
+    // console.log("last")//자스는 기본적으로 비동기. "응답안기다리고 처리"3해버림 그 다음 응답. 보여질꺼 다 보여줌  -->
+    <script>
+        const xhtp = new XMLHttpRequest();
+        xhtp.open('GET', 'MOCK_DATA.json'); // 요청지정. 페이지지정
+        xhtp.send();//서버로 요청
+        xhtp.onload = function(){ //받아온거 실행
+            let obj = JSON.parse(xhtp.response);//json => obj
+            console.log(obj); // [{},{},{}]
+            
+            table.initDate = obj;
+            document.getElementById('show').append(table.makeTable());
+
+        } 
+        xhtp.onerror = function(){
+            console.log('error발생')
+        }
+    </script>
+</body>
+
+</html>
